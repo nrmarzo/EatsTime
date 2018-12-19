@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+#mainNavbar {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
