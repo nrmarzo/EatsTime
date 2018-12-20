@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media (min-width: 768px) {
   .navbar-brand {
     position: absolute;
@@ -6,10 +10,68 @@
   }
 }
 
-#mainNavbar {
-  color: white;
+#main-navbar {
+  height: 48px;
+  border-bottom: 2px solid gray;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+#main-navbar a {
+  color: red;
+  padding: 8 16px;
+}
+
+#main-navbar .navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#main-container {
+  background: url(../imgs/main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
+
+#about-container {
+  background: url(../imgs/about-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#test {
+  background: #dc3545;
+  height: 200px;
+}
+
+.nav-item #signup {
+  background: #dc3545;
   color: white;
+  border-radius: 32px;
+  padding: 8px 16px;
+}
+
+.nav-item #signup:hover {
+  background: #b6081a;
+}
+
+.nav-item #signin {
+  padding: 8px 16px;
+}
+
+.nav-item #signin:hover {
+  color: #b6081a;
+}
+
+#address-container {
+  padding-top: 300px;
+  /* display: flex; */
+  /* background: blue; */
+  height: 50px;
 }
