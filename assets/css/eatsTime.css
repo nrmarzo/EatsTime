@@ -5,6 +5,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -82,19 +83,18 @@ body {
 }
 
 
-#address-container {
+#search-container {
   width: 600px;
-  margin: 450px 0 0 80px;
+  margin: 20px 0 0 80px;
   padding: 8px 16px;
   border-radius: 32px;
   line-height: 1.5;
 
 }
 
-#address-input {
-  border-radius: 32px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+#address-container {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
   background: white;
 }
 
@@ -114,14 +114,21 @@ body {
   background: #dc3545;
   outline: none;
   border: none;
-  border-radius: 32px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  border-bottom-right-radius: 32px;
+  border-top-right-radius: 32px;
   padding: 8px 30px;
-  font-size: 1.1rem;
   cursor: pointer;
 }
 
 #find-restaurants:hover {
   background: #b6081a;
+}
+
+#tagline {
+  /* background: blue; */
+  margin: 400px 0 0 150px;
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 4px 4px 10px black;
+  width: 400px;
 }
