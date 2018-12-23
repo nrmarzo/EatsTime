@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -74,20 +75,27 @@ body {
   color: #b6081a;
 }
 
+.fa-map-marker-alt {
+  font-size: 1.5rem;
+  color: #dc3545;
+  height: 100%;
+}
+
+
 #address-container {
-  margin: 400px 0 0 80px;
+  width: 600px;
+  margin: 450px 0 0 80px;
   padding: 8px 16px;
-  /* display: inline-block; */
-  background: white;
-  /* height: 150px; */
   border-radius: 32px;
   line-height: 1.5;
 
 }
 
-.fa-map-marker-alt {
-  font-size: 1.5rem;
-  color: #dc3545;
+#address-input {
+  border-radius: 32px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background: white;
 }
 
 
@@ -97,9 +105,11 @@ body {
   border: none;
   outline: none;
   margin-left: 10px;
+  height: 100%;
 }
 
 #find-restaurants {
+  height: 100%;
   color: white;
   background: #dc3545;
   outline: none;
@@ -107,9 +117,8 @@ body {
   border-radius: 32px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  padding: 8px 32px;
+  padding: 8px 30px;
   font-size: 1.1rem;
-  margin: 0;
   cursor: pointer;
 }
 
